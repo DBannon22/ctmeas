@@ -660,7 +660,7 @@
                     dist = (dist/1000).toFixed(2);
                 } else {
                     if (!this.options.useSubunits) {
-                        dist = (dist/1000).toFixed(4);
+                        dist = (dist/10000).toFixed(4);
                     } else {
                         dist = (dist).toFixed(1);
                         unit = this.options.unitControlLabel.metres;
